@@ -15,3 +15,8 @@ steps:
 
 - script: python3 app.py
   displayName: "Run Python App"
+
+- script: |
+    pip install selenium
+    python3 selenium_test.py
+  displayName: "Run Selenium Tests"
